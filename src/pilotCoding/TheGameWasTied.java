@@ -1,0 +1,19 @@
+package pilotCoding;
+
+public class TheGameWasTied {
+    public static void main(String[] args) {
+        String s="the game was tied at 2-2";
+        String s2=s.substring(5); // ame was tied at 2-2
+
+        int index1=s.indexOf("game"); // index1=4
+        int index2=s2.indexOf("game"); // index2= -1
+
+        if (index1==index2){
+            System.out.println("index1 = " + index1);
+        }else{
+            System.out.println("index2 = " + index2);
+        }
+        // output = -1
+
+    }
+}
